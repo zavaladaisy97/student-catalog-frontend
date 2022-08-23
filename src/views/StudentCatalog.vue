@@ -2,7 +2,7 @@
 export default {
   data: function () {
     return {
-      message: "Homepage",
+      message: "Welcome to the Student Catalog!",
     };
   },
   created: function () {},
