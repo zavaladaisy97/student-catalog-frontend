@@ -4,7 +4,7 @@ export default {
     return {
       message: "Welcome to Vue.js!",
       message2: "This is a test!",
-      message3: "This is another test!",
+      message3: "this is the one i changed!",
     };
   },
   created: function () {},
