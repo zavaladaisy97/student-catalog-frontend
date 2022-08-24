@@ -27,6 +27,7 @@ export default {
     <div v-for="student in students" v-bind:key="student.first_name">
       <h2>{{ student.first_name }}</h2>
       <p>{{ student.capstone_name }}</p>
+      <a v-bind:href="`/students/${student.id}`">Student Info</a>
     </div>
   </div>
 </template>
