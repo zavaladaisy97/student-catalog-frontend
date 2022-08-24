@@ -23,8 +23,9 @@ export default {
 
 <template>
   <div class="home">
-    <h1>{{ student }}</h1>
-    <a href="/studentcatalog">Back To All Students</a>
+    <h1>{{ student.first_name }} {{ student.last_name }}</h1>
+    <h2>{{ student.capstone_name }}</h2>
+    <a class="btn btn-primary" href="/studentcatalog">Back To All Students</a>
   </div>
 </template>
 
