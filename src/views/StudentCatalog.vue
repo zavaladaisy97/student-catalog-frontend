@@ -37,6 +37,7 @@ export default {
       </div>
     </div>
   </div>
+
   <!-- <div class="home">
     <h1>{{ message }}</h1>
     <div v-for="student in students" v-bind:key="student.first_name">
@@ -47,4 +48,8 @@ export default {
   </div> -->
 </template>
 
-<style></style>
+<style>
+body {
+  background-color: #ffffff;
+}
+</style>
